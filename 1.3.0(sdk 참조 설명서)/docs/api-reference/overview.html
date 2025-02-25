@@ -1,0 +1,77 @@
+<HTML>
+<BODY>
+<p>
+Samsung Health Sensor SDK enables a watch app to track health related sensor data including raw and processed data on Galaxy Watch
+running Wear OS Powered by Samsung.
+
+<h1>Available Tracking Data</h1>
+
+The following data tracking is available with Samsung Health Sensor SDK:
+<p>
+<li>Accelerometer</li>
+<li>BIA (body composition)</li>
+<li>ECG (Electrocardiogram)</li>
+<li>Heart rate including IBI (Inter-beat Interval) </li>
+<li>Photoplethysmogram (PPG) Green, Infrared (IR), and Red</li>
+<li>SpO2 (oxygen saturation)</li>
+<li>Sweat loss</li>
+<li>Skin temperature</li>
+</p>
+
+<p>Samsung Health Sensor SDK works with <i>Health Platform</i> app on Galaxy Watch.<br/>
+The SDK's data library works properly with the specific <i>Health Platform</i> version.<br/></p>
+<p>
+
+<p>
+<div class="contentContainer">
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Compatible version of Health Platform">
+<tr>
+<th class="colFirst" scope="col">SDK's library version</th>
+<th class="colFirst" scope="col"><i>Health Platform</i> compatible version</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst">1.0.0</td>
+<td class="colFirst">1.2.0 or above</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst">1.1.0</td>
+<td class="colFirst">1.3.0 or above</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst">1.2.0 or above</td>
+<td class="colFirst">1.5.0 or above</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst">1.3.0</td>
+<td class="colFirst">1.6.0 or above</td>
+</tr>
+</tbody>
+</table>
+</div>
+</p>
+</p>
+
+<p>E.g. if you create your app with the SDK library 1.0.0, it requires to install <i>Health Platform</i> 1.2.0 or above in the device.
+</p>
+
+<p>If the SDK and <i>Health Platform</i>'s version is not matched, the SDK gives an error.
+<ul>
+<li><a href="com/samsung/android/service/health/tracking/HealthTrackerException.html#OLD_PLATFORM_VERSION">
+<code>OLD_VERSION_PLATFORM</code></a></li>
+</ul>
+</p>
+
+<p>You can resolve the error simply and induce the users to update <i>Health Platform</i> app to the latest version with the following APIs.</p>
+<ul>
+<li><a href="com/samsung/android/service/health/tracking/HealthTrackerException.html#hasResolution--"><code>HealthTrackerException.hasResolution()</code></a></li>
+<li><a href="com/samsung/android/service/health/tracking/HealthTrackerException.html#resolve-Activity-"><code>HealthTrackerException.resolve()</code></a></li>
+</ul>
+
+<p>
+See its example:<br/>
+<a href="com/samsung/android/service/health/tracking/HealthTrackerException.html"><b>Connection Exception Handling</b></a>
+</p>
+
+</BODY>
+</HTML>
