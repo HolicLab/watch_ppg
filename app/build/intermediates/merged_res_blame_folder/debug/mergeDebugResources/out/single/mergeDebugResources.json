@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.samsung.health.hrtracker.app-debug-20:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.samsung.health.hrtracker.app-main-22:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.samsung.health.hrtracker.app-debug-20:/layout_activity_heartrate.xml.flat",
+        "source": "com.samsung.health.hrtracker.app-main-22:/layout/activity_heartrate.xml"
+    },
+    {
+        "merged": "com.samsung.health.hrtracker.app-debug-20:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.samsung.health.hrtracker.app-main-22:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.samsung.health.hrtracker.app-debug-20:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.samsung.health.hrtracker.app-main-22:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.samsung.health.hrtracker.app-debug-20:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.samsung.health.hrtracker.app-main-22:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.samsung.health.hrtracker.app-debug-20:/drawable_button_background.xml.flat",
+        "source": "com.samsung.health.hrtracker.app-main-22:/drawable/button_background.xml"
+    },
+    {
+        "merged": "com.samsung.health.hrtracker.app-debug-20:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.samsung.health.hrtracker.app-main-22:/mipmap-xxxhdpi/ic_launcher.webp"
+    }
+]

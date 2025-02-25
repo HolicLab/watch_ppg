@@ -1,0 +1,289 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:2:1-45:12
+MERGED from [samsung-health-sensor-api-1.3.0.aar] C:\Users\lka11\.gradle\caches\transforms-4\f1ccd82676260a051d653f4cad257b2a\transformed\samsung-health-sensor-api-1.3.0\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.databinding:viewbinding:8.5.1] C:\Users\lka11\.gradle\caches\transforms-4\7634872c279ba8653f9591dc0a4cc04c\transformed\viewbinding-8.5.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-wearable:18.2.0] C:\Users\lka11\.gradle\caches\transforms-4\dbea4e8fe792a54d0b95d7c92f13f4a2\transformed\play-services-wearable-18.2.0\AndroidManifest.xml:2:1-8:12
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\1bc098937626863da16b3ffcd0e390ab\transformed\percentlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\3d1acd58832379fb6c284835289c02aa\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.wear:wear:1.3.0] C:\Users\lka11\.gradle\caches\transforms-4\09170138167e6e35c4b10e6acc8f403f\transformed\wear-1.3.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\lka11\.gradle\caches\transforms-4\702c69e31eedba2c9133ddf6ff7650cf\transformed\recyclerview-1.3.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\lka11\.gradle\caches\transforms-4\f184be608bb1be8f76c3c52d9908d651\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\e38f40be7883e5e169a072e26ebb0d8f\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\99931c8a95a24a01c70b45040ed6abb3\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\e204df376aa783d4bd54c0f1c4b20d71\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\cab8ab4966264d8c85e36d74eab3008a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\lka11\.gradle\caches\transforms-4\39813a2b47ddb7c8dbeeac4f35247746\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\lka11\.gradle\caches\transforms-4\558e15977a1a58853571800321fca21b\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\lka11\.gradle\caches\transforms-4\c0b48e1a34c21441cd5ff527f794092d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\lka11\.gradle\caches\transforms-4\d5135d3c3b66c91eb8d2570e05dc4251\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\lka11\.gradle\caches\transforms-4\c38f45ed253c820fde9a51a67d8186d9\transformed\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\943ca48d825463cb52a685bb0226ffeb\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\4a27ddb7b89a405d37ee59ad51e11186\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\040128d676e0fe4e87d04ae7c25030c5\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\f393f65627fb95d7d0b5de335dc215d1\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\098d25fdb9d97da7765ce541f15f4a29\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\1d89920f5c81888a934353c69863527f\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\lka11\.gradle\caches\transforms-4\acbe2541747c60e3ec95308251b353d7\transformed\core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\8325a9f0589c03e4606c20da7bfa95f5\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\9bf0ad30e03ba21ce2915be235158a12\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\9f8f4197ebb4d5d42f92c637ee586ee5\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\lka11\.gradle\caches\transforms-4\a95e153d3a244e89c5c214245af7e780\transformed\activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\lka11\.gradle\caches\transforms-4\1752c07076a6dac8279bb77922f57043\transformed\appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\lka11\.gradle\caches\transforms-4\0efe6c1ce192fc10b58aca141c5232f2\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\lka11\.gradle\caches\transforms-4\6bd1042dd4e099a052c7efd01423c7c6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\lka11\.gradle\caches\transforms-4\9e8d5b0b11092f3fbf64cfb1239c3515\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\lka11\.gradle\caches\transforms-4\5c483f6dfad58748f7982d7a725a053b\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\lka11\.gradle\caches\transforms-4\7da15bbe64372c51f56c5c991112b512\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\42294e688d6a4695154f27a0b167cbc9\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\ebb53db698f077e2af1dcb9b596b01d2\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\4179220787927e89f63802c32f4957b0\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\4abd67f0591e6cf68433df8eec961123\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\b05ca72b21ce6e5533216afc4c6c3952\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\lka11\.gradle\caches\transforms-4\924e17deb471ce02a5ca7c5ecff33e4e\transformed\lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\lka11\.gradle\caches\transforms-4\2eb3d0824994b53f68011573e75a2e89\transformed\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\lka11\.gradle\caches\transforms-4\0b4e6d1c1c1c7c39521eec85313b07f4\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\lka11\.gradle\caches\transforms-4\ac516baa2a61c865ea94c026551d267a\transformed\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\lka11\.gradle\caches\transforms-4\59b93dfb7966be681a6ec931a3c83bbb\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\835a910718827e5d00006c2287305c92\transformed\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\lka11\.gradle\caches\transforms-4\7857ad3d31c38db1fe4303394d0f9af4\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+	package
+		INJECTED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:4:5-68
+	android:name
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:4:22-65
+uses-permission#android.permission.BODY_SENSORS
+ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:5:5-71
+	android:name
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:5:22-68
+uses-permission#com.samsung.health.permission.HEART_RATE
+ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#com.samsung.health.permission.DEVICE_INFO
+ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:8:5-117
+	android:name
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:8:22-114
+uses-permission#android.permission.INTERNET
+ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:9:22-64
+queries
+ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:11:5-13:15
+MERGED from [samsung-health-sensor-api-1.3.0.aar] C:\Users\lka11\.gradle\caches\transforms-4\f1ccd82676260a051d653f4cad257b2a\transformed\samsung-health-sensor-api-1.3.0\AndroidManifest.xml:7:5-9:15
+MERGED from [samsung-health-sensor-api-1.3.0.aar] C:\Users\lka11\.gradle\caches\transforms-4\f1ccd82676260a051d653f4cad257b2a\transformed\samsung-health-sensor-api-1.3.0\AndroidManifest.xml:7:5-9:15
+MERGED from [samsung-health-sensor-api-1.3.0.aar] C:\Users\lka11\.gradle\caches\transforms-4\f1ccd82676260a051d653f4cad257b2a\transformed\samsung-health-sensor-api-1.3.0\AndroidManifest.xml:10:5-12:15
+MERGED from [samsung-health-sensor-api-1.3.0.aar] C:\Users\lka11\.gradle\caches\transforms-4\f1ccd82676260a051d653f4cad257b2a\transformed\samsung-health-sensor-api-1.3.0\AndroidManifest.xml:10:5-12:15
+package#com.samsung.android.service.health
+ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:12:9-70
+MERGED from [samsung-health-sensor-api-1.3.0.aar] C:\Users\lka11\.gradle\caches\transforms-4\f1ccd82676260a051d653f4cad257b2a\transformed\samsung-health-sensor-api-1.3.0\AndroidManifest.xml:11:9-70
+MERGED from [samsung-health-sensor-api-1.3.0.aar] C:\Users\lka11\.gradle\caches\transforms-4\f1ccd82676260a051d653f4cad257b2a\transformed\samsung-health-sensor-api-1.3.0\AndroidManifest.xml:11:9-70
+	android:name
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:12:18-67
+uses-feature#android.hardware.type.watch
+ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:15:5-64
+	android:name
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:15:19-61
+application
+ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:17:5-43:19
+INJECTED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:17:5-43:19
+MERGED from [com.google.android.gms:play-services-wearable:18.2.0] C:\Users\lka11\.gradle\caches\transforms-4\dbea4e8fe792a54d0b95d7c92f13f4a2\transformed\play-services-wearable-18.2.0\AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-wearable:18.2.0] C:\Users\lka11\.gradle\caches\transforms-4\dbea4e8fe792a54d0b95d7c92f13f4a2\transformed\play-services-wearable-18.2.0\AndroidManifest.xml:6:5-20
+MERGED from [androidx.wear:wear:1.3.0] C:\Users\lka11\.gradle\caches\transforms-4\09170138167e6e35c4b10e6acc8f403f\transformed\wear-1.3.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.wear:wear:1.3.0] C:\Users\lka11\.gradle\caches\transforms-4\09170138167e6e35c4b10e6acc8f403f\transformed\wear-1.3.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\lka11\.gradle\caches\transforms-4\f184be608bb1be8f76c3c52d9908d651\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\lka11\.gradle\caches\transforms-4\f184be608bb1be8f76c3c52d9908d651\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\lka11\.gradle\caches\transforms-4\39813a2b47ddb7c8dbeeac4f35247746\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\lka11\.gradle\caches\transforms-4\39813a2b47ddb7c8dbeeac4f35247746\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\lka11\.gradle\caches\transforms-4\558e15977a1a58853571800321fca21b\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\lka11\.gradle\caches\transforms-4\558e15977a1a58853571800321fca21b\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\lka11\.gradle\caches\transforms-4\c0b48e1a34c21441cd5ff527f794092d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\lka11\.gradle\caches\transforms-4\c0b48e1a34c21441cd5ff527f794092d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\lka11\.gradle\caches\transforms-4\9e8d5b0b11092f3fbf64cfb1239c3515\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\lka11\.gradle\caches\transforms-4\9e8d5b0b11092f3fbf64cfb1239c3515\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\lka11\.gradle\caches\transforms-4\7da15bbe64372c51f56c5c991112b512\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\lka11\.gradle\caches\transforms-4\7da15bbe64372c51f56c5c991112b512\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Users\lka11\.gradle\caches\transforms-4\9e8d5b0b11092f3fbf64cfb1239c3515\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:21:9-35
+	android:label
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:20:9-41
+	android:icon
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:19:9-43
+	android:allowBackup
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:22:9-59
+uses-library#com.samsung.android.service.health.tracking
+ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:24:9-108
+	android:required
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:24:82-106
+	android:name
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:24:23-81
+uses-library#com.google.android.wearable
+ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:26:9-28:39
+MERGED from [androidx.wear:wear:1.3.0] C:\Users\lka11\.gradle\caches\transforms-4\09170138167e6e35c4b10e6acc8f403f\transformed\wear-1.3.0\AndroidManifest.xml:23:9-25:40
+MERGED from [androidx.wear:wear:1.3.0] C:\Users\lka11\.gradle\caches\transforms-4\09170138167e6e35c4b10e6acc8f403f\transformed\wear-1.3.0\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:27:13-55
+meta-data#com.google.android.wearable.standalone
+ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:30:9-32:36
+	android:value
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:32:13-33
+	android:name
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:31:13-66
+activity#com.samsung.health.hrtracker.HeartRateActivity
+ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:34:9-42:20
+	android:exported
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:36:13-36
+	android:taskAffinity
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:35:13-74
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:38:13-41:29
+action#android.intent.action.MAIN
+ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:40:17-77
+	android:name
+		ADDED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml:40:27-74
+uses-sdk
+INJECTED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml
+INJECTED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml
+MERGED from [samsung-health-sensor-api-1.3.0.aar] C:\Users\lka11\.gradle\caches\transforms-4\f1ccd82676260a051d653f4cad257b2a\transformed\samsung-health-sensor-api-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [samsung-health-sensor-api-1.3.0.aar] C:\Users\lka11\.gradle\caches\transforms-4\f1ccd82676260a051d653f4cad257b2a\transformed\samsung-health-sensor-api-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.5.1] C:\Users\lka11\.gradle\caches\transforms-4\7634872c279ba8653f9591dc0a4cc04c\transformed\viewbinding-8.5.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.5.1] C:\Users\lka11\.gradle\caches\transforms-4\7634872c279ba8653f9591dc0a4cc04c\transformed\viewbinding-8.5.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-wearable:18.2.0] C:\Users\lka11\.gradle\caches\transforms-4\dbea4e8fe792a54d0b95d7c92f13f4a2\transformed\play-services-wearable-18.2.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-wearable:18.2.0] C:\Users\lka11\.gradle\caches\transforms-4\dbea4e8fe792a54d0b95d7c92f13f4a2\transformed\play-services-wearable-18.2.0\AndroidManifest.xml:4:5-44
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\1bc098937626863da16b3ffcd0e390ab\transformed\percentlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\1bc098937626863da16b3ffcd0e390ab\transformed\percentlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\3d1acd58832379fb6c284835289c02aa\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\3d1acd58832379fb6c284835289c02aa\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.wear:wear:1.3.0] C:\Users\lka11\.gradle\caches\transforms-4\09170138167e6e35c4b10e6acc8f403f\transformed\wear-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.wear:wear:1.3.0] C:\Users\lka11\.gradle\caches\transforms-4\09170138167e6e35c4b10e6acc8f403f\transformed\wear-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\lka11\.gradle\caches\transforms-4\702c69e31eedba2c9133ddf6ff7650cf\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\lka11\.gradle\caches\transforms-4\702c69e31eedba2c9133ddf6ff7650cf\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\lka11\.gradle\caches\transforms-4\f184be608bb1be8f76c3c52d9908d651\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\lka11\.gradle\caches\transforms-4\f184be608bb1be8f76c3c52d9908d651\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\e38f40be7883e5e169a072e26ebb0d8f\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\e38f40be7883e5e169a072e26ebb0d8f\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\99931c8a95a24a01c70b45040ed6abb3\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\99931c8a95a24a01c70b45040ed6abb3\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\e204df376aa783d4bd54c0f1c4b20d71\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\e204df376aa783d4bd54c0f1c4b20d71\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\cab8ab4966264d8c85e36d74eab3008a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\cab8ab4966264d8c85e36d74eab3008a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\lka11\.gradle\caches\transforms-4\39813a2b47ddb7c8dbeeac4f35247746\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\lka11\.gradle\caches\transforms-4\39813a2b47ddb7c8dbeeac4f35247746\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\lka11\.gradle\caches\transforms-4\558e15977a1a58853571800321fca21b\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\lka11\.gradle\caches\transforms-4\558e15977a1a58853571800321fca21b\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\lka11\.gradle\caches\transforms-4\c0b48e1a34c21441cd5ff527f794092d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\lka11\.gradle\caches\transforms-4\c0b48e1a34c21441cd5ff527f794092d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\lka11\.gradle\caches\transforms-4\d5135d3c3b66c91eb8d2570e05dc4251\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\lka11\.gradle\caches\transforms-4\d5135d3c3b66c91eb8d2570e05dc4251\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\lka11\.gradle\caches\transforms-4\c38f45ed253c820fde9a51a67d8186d9\transformed\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\lka11\.gradle\caches\transforms-4\c38f45ed253c820fde9a51a67d8186d9\transformed\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\943ca48d825463cb52a685bb0226ffeb\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\943ca48d825463cb52a685bb0226ffeb\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\4a27ddb7b89a405d37ee59ad51e11186\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\4a27ddb7b89a405d37ee59ad51e11186\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\040128d676e0fe4e87d04ae7c25030c5\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\040128d676e0fe4e87d04ae7c25030c5\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\f393f65627fb95d7d0b5de335dc215d1\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\f393f65627fb95d7d0b5de335dc215d1\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\098d25fdb9d97da7765ce541f15f4a29\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\098d25fdb9d97da7765ce541f15f4a29\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\1d89920f5c81888a934353c69863527f\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\1d89920f5c81888a934353c69863527f\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\lka11\.gradle\caches\transforms-4\acbe2541747c60e3ec95308251b353d7\transformed\core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\lka11\.gradle\caches\transforms-4\acbe2541747c60e3ec95308251b353d7\transformed\core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\8325a9f0589c03e4606c20da7bfa95f5\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\8325a9f0589c03e4606c20da7bfa95f5\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\9bf0ad30e03ba21ce2915be235158a12\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\9bf0ad30e03ba21ce2915be235158a12\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\9f8f4197ebb4d5d42f92c637ee586ee5\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\9f8f4197ebb4d5d42f92c637ee586ee5\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\lka11\.gradle\caches\transforms-4\a95e153d3a244e89c5c214245af7e780\transformed\activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\lka11\.gradle\caches\transforms-4\a95e153d3a244e89c5c214245af7e780\transformed\activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\lka11\.gradle\caches\transforms-4\1752c07076a6dac8279bb77922f57043\transformed\appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\lka11\.gradle\caches\transforms-4\1752c07076a6dac8279bb77922f57043\transformed\appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\lka11\.gradle\caches\transforms-4\0efe6c1ce192fc10b58aca141c5232f2\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\lka11\.gradle\caches\transforms-4\0efe6c1ce192fc10b58aca141c5232f2\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\lka11\.gradle\caches\transforms-4\6bd1042dd4e099a052c7efd01423c7c6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\lka11\.gradle\caches\transforms-4\6bd1042dd4e099a052c7efd01423c7c6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\lka11\.gradle\caches\transforms-4\9e8d5b0b11092f3fbf64cfb1239c3515\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\lka11\.gradle\caches\transforms-4\9e8d5b0b11092f3fbf64cfb1239c3515\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\lka11\.gradle\caches\transforms-4\5c483f6dfad58748f7982d7a725a053b\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\lka11\.gradle\caches\transforms-4\5c483f6dfad58748f7982d7a725a053b\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\lka11\.gradle\caches\transforms-4\7da15bbe64372c51f56c5c991112b512\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\lka11\.gradle\caches\transforms-4\7da15bbe64372c51f56c5c991112b512\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\42294e688d6a4695154f27a0b167cbc9\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\42294e688d6a4695154f27a0b167cbc9\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\ebb53db698f077e2af1dcb9b596b01d2\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\ebb53db698f077e2af1dcb9b596b01d2\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\4179220787927e89f63802c32f4957b0\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\4179220787927e89f63802c32f4957b0\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\4abd67f0591e6cf68433df8eec961123\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\4abd67f0591e6cf68433df8eec961123\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\b05ca72b21ce6e5533216afc4c6c3952\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\b05ca72b21ce6e5533216afc4c6c3952\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\lka11\.gradle\caches\transforms-4\924e17deb471ce02a5ca7c5ecff33e4e\transformed\lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\lka11\.gradle\caches\transforms-4\924e17deb471ce02a5ca7c5ecff33e4e\transformed\lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\lka11\.gradle\caches\transforms-4\2eb3d0824994b53f68011573e75a2e89\transformed\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\lka11\.gradle\caches\transforms-4\2eb3d0824994b53f68011573e75a2e89\transformed\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\lka11\.gradle\caches\transforms-4\0b4e6d1c1c1c7c39521eec85313b07f4\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\lka11\.gradle\caches\transforms-4\0b4e6d1c1c1c7c39521eec85313b07f4\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\lka11\.gradle\caches\transforms-4\ac516baa2a61c865ea94c026551d267a\transformed\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\lka11\.gradle\caches\transforms-4\ac516baa2a61c865ea94c026551d267a\transformed\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\lka11\.gradle\caches\transforms-4\59b93dfb7966be681a6ec931a3c83bbb\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\lka11\.gradle\caches\transforms-4\59b93dfb7966be681a6ec931a3c83bbb\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\835a910718827e5d00006c2287305c92\transformed\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\lka11\.gradle\caches\transforms-4\835a910718827e5d00006c2287305c92\transformed\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\lka11\.gradle\caches\transforms-4\7857ad3d31c38db1fe4303394d0f9af4\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\lka11\.gradle\caches\transforms-4\7857ad3d31c38db1fe4303394d0f9af4\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\mycode\TestPpg\app\src\main\AndroidManifest.xml
+package#com.sec.android.app.samsungapps
+ADDED from [samsung-health-sensor-api-1.3.0.aar] C:\Users\lka11\.gradle\caches\transforms-4\f1ccd82676260a051d653f4cad257b2a\transformed\samsung-health-sensor-api-1.3.0\AndroidManifest.xml:8:9-67
+	android:name
+		ADDED from [samsung-health-sensor-api-1.3.0.aar] C:\Users\lka11\.gradle\caches\transforms-4\f1ccd82676260a051d653f4cad257b2a\transformed\samsung-health-sensor-api-1.3.0\AndroidManifest.xml:8:18-64
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\lka11\.gradle\caches\transforms-4\39813a2b47ddb7c8dbeeac4f35247746\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\lka11\.gradle\caches\transforms-4\39813a2b47ddb7c8dbeeac4f35247746\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\lka11\.gradle\caches\transforms-4\39813a2b47ddb7c8dbeeac4f35247746\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\lka11\.gradle\caches\transforms-4\39813a2b47ddb7c8dbeeac4f35247746\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\lka11\.gradle\caches\transforms-4\c0b48e1a34c21441cd5ff527f794092d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\lka11\.gradle\caches\transforms-4\c0b48e1a34c21441cd5ff527f794092d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\lka11\.gradle\caches\transforms-4\c0b48e1a34c21441cd5ff527f794092d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65

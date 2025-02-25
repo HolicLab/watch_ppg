@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.samsung.health.hrtracker.app-mergeDebugResources-18:/values-round-v23/values-round-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lka11\\.gradle\\caches\\transforms-4\\09170138167e6e35c4b10e6acc8f403f\\transformed\\wear-1.3.0\\res\\values-round-v23\\values-round-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "84",
+                        "endOffsets": "135"
+                    }
+                }
+            ]
+        }
+    ]
+}

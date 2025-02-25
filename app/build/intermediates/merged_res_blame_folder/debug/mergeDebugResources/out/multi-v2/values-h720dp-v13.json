@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.samsung.health.hrtracker.app-mergeDebugResources-18:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lka11\\.gradle\\caches\\transforms-4\\d5135d3c3b66c91eb8d2570e05dc4251\\transformed\\appcompat-1.2.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}
