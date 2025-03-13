@@ -31,32 +31,32 @@ import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
-import android.os.Handler;
-import android.os.Looper;
+//import android.os.Handler;
+//import android.os.Looper;
 import androidx.annotation.NonNull;
 
 import com.samsung.health.hrtracker.databinding.ActivityHeartrateBinding;
 
 import java.util.Locale;
 import java.util.concurrent.atomic.AtomicBoolean;
-import java.text.SimpleDateFormat; // 시간 형식 지정을 위해
-import java.util.concurrent.TimeUnit;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+//import java.text.SimpleDateFormat; // 시간 형식 지정을 위해
+//import java.util.concurrent.TimeUnit;
+//import java.util.ArrayList;
+//import java.util.Date;
+//import java.util.List;
 
 // OkHttp 관련 imports
-import okhttp3.Call;
-import okhttp3.Callback;
-import okhttp3.MediaType;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.RequestBody;
-import okhttp3.Response;
-import okhttp3.ResponseBody;
-import okhttp3.logging.HttpLoggingInterceptor; // 로깅 인터셉터 import
-import java.io.IOException;
-import com.google.gson.Gson; // Gson import
+//import okhttp3.Call;
+//import okhttp3.Callback;
+//import okhttp3.MediaType;
+//import okhttp3.OkHttpClient;
+//import okhttp3.Request;
+//import okhttp3.RequestBody;
+//import okhttp3.Response;
+//import okhttp3.ResponseBody;
+//import okhttp3.logging.HttpLoggingInterceptor; // 로깅 인터셉터 import
+//import java.io.IOException;
+//import com.google.gson.Gson; // Gson import
 
 public class HeartRateActivity extends Activity implements TrackerObserver, SensorEventListener {
     private final AtomicBoolean connected = new AtomicBoolean(false);
@@ -70,22 +70,22 @@ public class HeartRateActivity extends Activity implements TrackerObserver, Sens
     private SensorManager mSensorManager;
     private Sensor offBodySensor;
     private ActivityHeartrateBinding activityHeartRateBinding = null;
-    private OkHttpClient okHttpClient;
-    private static final MediaType MEDIA_TYPE_JSON = MediaType.parse("application/json; charset=utf-8");
+//    private OkHttpClient okHttpClient;
+//    private static final MediaType MEDIA_TYPE_JSON = MediaType.parse("application/json; charset=utf-8");
 
     // 데이터 버퍼링 관련 변수
-    private final List<PpgDataItem> dataBuffer = new ArrayList<>();
-    private static final long BUFFER_INTERVAL_MS = 5000; // 버퍼링 간격 (밀리초)
-    private final Handler bufferHandler = new Handler(Looper.getMainLooper()); // UI 스레드 핸들러
-    // SimpleDateFormat을 멤버 변수로 선언
-    private final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault());
-    private final Runnable bufferRunnable = new Runnable() { // Runnable 객체를 멤버 변수로
-        @Override
-        public void run() {
-            sendBufferedData();  // 버퍼에 있는 데이터를 전송하는 메서드
-            bufferHandler.postDelayed(this, BUFFER_INTERVAL_MS); // 다음 실행 예약
-        }
-    };
+//    private final List<PpgDataItem> dataBuffer = new ArrayList<>();
+//    private static final long BUFFER_INTERVAL_MS = 5000; // 버퍼링 간격 (밀리초)
+//    private final Handler bufferHandler = new Handler(Looper.getMainLooper()); // UI 스레드 핸들러
+//    // SimpleDateFormat을 멤버 변수로 선언
+//    private final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault());
+//    private final Runnable bufferRunnable = new Runnable() { // Runnable 객체를 멤버 변수로
+//        @Override
+//        public void run() {
+//            sendBufferedData();  // 버퍼에 있는 데이터를 전송하는 메서드
+//            bufferHandler.postDelayed(this, BUFFER_INTERVAL_MS); // 다음 실행 예약
+//        }
+//    };
 
     private final ConnectionObserver connectionObserver = new ConnectionObserver() {
         @Override
@@ -139,22 +139,22 @@ public class HeartRateActivity extends Activity implements TrackerObserver, Sens
         createConnectionManager();
 
         // OkHttpClient 초기화
-        setupOkHttpClient();
+//        setupOkHttpClient();
     }
 
-    private void setupOkHttpClient() {
-        // (선택 사항) 로깅 인터셉터 추가 (디버깅 시 유용)
-        HttpLoggingInterceptor loggingInterceptor = new HttpLoggingInterceptor();
-        loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY); // 요청/응답 본문 로깅
-
-        okHttpClient = new OkHttpClient.Builder()
-                .addInterceptor(loggingInterceptor) // 인터셉터 추가
-                .addInterceptor(new RetryInterceptor(2))
-                .connectTimeout(10, TimeUnit.SECONDS) // 연결 타임아웃 (10초)
-                .readTimeout(30, TimeUnit.SECONDS)    // 읽기 타임아웃 (30초)
-                .writeTimeout(30, TimeUnit.SECONDS)   // 쓰기 타임아웃(30초)
-                .build();
-    }
+//    private void setupOkHttpClient() {
+//        // (선택 사항) 로깅 인터셉터 추가 (디버깅 시 유용)
+//        HttpLoggingInterceptor loggingInterceptor = new HttpLoggingInterceptor();
+//        loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY); // 요청/응답 본문 로깅
+//
+//        okHttpClient = new OkHttpClient.Builder()
+//                .addInterceptor(loggingInterceptor) // 인터셉터 추가
+//                .addInterceptor(new RetryInterceptor(2))
+//                .connectTimeout(10, TimeUnit.SECONDS) // 연결 타임아웃 (10초)
+//                .readTimeout(30, TimeUnit.SECONDS)    // 읽기 타임아웃 (30초)
+//                .writeTimeout(30, TimeUnit.SECONDS)   // 쓰기 타임아웃(30초)
+//                .build();
+//    }
 
     // 액티비티 재개시 호출, off-body 센서 리스너를 등록
     @Override
@@ -164,7 +164,7 @@ public class HeartRateActivity extends Activity implements TrackerObserver, Sens
             mSensorManager.registerListener(HeartRateActivity.this,
                     offBodySensor, SensorManager.SENSOR_DELAY_NORMAL);
         }
-        startBuffering();
+//        startBuffering();
     }
 
     // 액티비티 일시 중지시 호출, Off-body 센서 리스너를 해제
@@ -174,7 +174,7 @@ public class HeartRateActivity extends Activity implements TrackerObserver, Sens
         if (offBodySensor != null) {
             mSensorManager.unregisterListener(this);
         }
-        stopBuffering();
+//        stopBuffering();
     }
 
     // SDK 연결을 초기화하고 관리하는 역할
@@ -196,11 +196,11 @@ public class HeartRateActivity extends Activity implements TrackerObserver, Sens
             connectionManager.disconnect();
         }
         trackerDataSubject.removeObserver(this);
-        if (okHttpClient != null) {
-            // OkHttpClient 정리 (중요)
-            okHttpClient.dispatcher().executorService().shutdown(); // Dispatcher 종료
-            okHttpClient.connectionPool().evictAll(); // Connection pool 정리
-        }
+//        if (okHttpClient != null) {
+//            // OkHttpClient 정리 (중요)
+//            okHttpClient.dispatcher().executorService().shutdown(); // Dispatcher 종료
+//            okHttpClient.connectionPool().evictAll(); // Connection pool 정리
+//        }
     }
 
     // 측정 시작/중지 버튼 클릭 이벤트 처리
@@ -237,22 +237,22 @@ public class HeartRateActivity extends Activity implements TrackerObserver, Sens
         initialMeasurement.set(true);
         heartRateListener.startTracker();
         isMeasurementRunning.set(true);
-        startBuffering();
+//        startBuffering();
     }
 
     // 버퍼링 시작 (onResume 또는 측정 시작 시 호출)
-    private void startBuffering() {
-        bufferHandler.postDelayed(bufferRunnable, BUFFER_INTERVAL_MS);
-    }
-    // 버퍼링 중지 (onPause 또는 측정 종료 시 호출)
-    private void stopBuffering() {
-        bufferHandler.removeCallbacks(bufferRunnable);
-    }
-    // 버퍼에 데이터를 추가하고, 꽉 찼을 경우 서버로 전송
-    private void addToBuffer(float ppgGreenValue, int status) {
-        String currentTime = dateFormat.format(new Date());
-        dataBuffer.add(new PpgDataItem(ppgGreenValue, status, currentTime));
-    }
+//    private void startBuffering() {
+//        bufferHandler.postDelayed(bufferRunnable, BUFFER_INTERVAL_MS);
+//    }
+//    // 버퍼링 중지 (onPause 또는 측정 종료 시 호출)
+//    private void stopBuffering() {
+//        bufferHandler.removeCallbacks(bufferRunnable);
+//    }
+//    // 버퍼에 데이터를 추가하고, 꽉 찼을 경우 서버로 전송
+//    private void addToBuffer(float ppgGreenValue, int status) {
+//        String currentTime = dateFormat.format(new Date());
+//        dataBuffer.add(new PpgDataItem(ppgGreenValue, status, currentTime));
+//    }
 
     // 심박수 데이터가 변경될 때 호출, UI를 업데이트한다.
     @Override
@@ -266,72 +266,73 @@ public class HeartRateActivity extends Activity implements TrackerObserver, Sens
                     String.format(Locale.getDefault(), "%.2f", ppgGreenValue));
             activityHeartRateBinding.txtPpgGreenStatusValue.setText(
                     String.format(Locale.getDefault(), "%d", status));
+            Log.d("HeartRateTracker", "ppg값: " + ppgGreenValue + ", Status: " + status);
 
-            // 서버로 PPG 데이터 전송 (OkHttp 사용)
-            addToBuffer(ppgGreenValue, status);
+// 서버로 PPG 데이터 전송 (OkHttp 사용)
+//            addToBuffer(ppgGreenValue, status);
         });
     }
 
-    // 버퍼에 있는 데이터를 서버로 전송하고 버퍼를 비움
-    private synchronized void sendBufferedData() {
-        if (dataBuffer.isEmpty()) {
-            return; // 버퍼가 비어있으면 아무것도 하지 않음
-        }
-
-        // 세션 ID 생성 (하드코딩)
-        String sessionId = "01JMY6H732HBAV1XZ4KP9YAQBS";
-        String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDFKTVdCUUM2M0c0SlFQUDhTWDYzM1dGV1MiLCJyb2xlIjoiVVNFUiIsImV4cCI6MTc0MDUxMzAxM30.VpMftsSm4qGYs20xdQXPoyWyqhVOqxP76fIG14VjtOs";
-
-        final List<PpgDataItem> dataToSend = new ArrayList<>(dataBuffer); // final 변수에 복사
-        dataBuffer.clear();
-        PpgDataWrapper dataWrapper = new PpgDataWrapper(sessionId, dataToSend);
-        String jsonData = new Gson().toJson(dataWrapper);
-        RequestBody requestBody = RequestBody.create(jsonData, MEDIA_TYPE_JSON);
-
-        // Request 객체 생성
-        Request request = new Request.Builder()
-                .url("https://youngwon.site/study/data") // 실제 서버 URL
-                .addHeader("Authorization", "Bearer " + token)
-                .post(requestBody)
-                .build();
-
-        okHttpClient.newCall(request).enqueue(new Callback() {
-            @Override
-            public void onFailure(@NonNull Call call, @NonNull IOException e) {
-                // 네트워크 오류 처리 (UI 스레드에서 처리)
-                runOnUiThread(() -> {
-                    Toast.makeText(HeartRateActivity.this, "Network error: " + e.getMessage(), Toast.LENGTH_LONG).show();
-                    Log.e("HeartRateActivity", "OkHttp request failed: " + e.getMessage(), e);
-                });
-            }
-            @Override
-            public void onResponse(@NonNull Call call, @NonNull Response response) {
-                try {
-                    if (response.isSuccessful()) {
-                        // dataBuffer.clear(); // 여기서 제거! 위에서 이미 clear함.
-
-                        // 성공 (200 OK 등)
-                        ResponseBody responseBody = response.body();
-                        String responseString = responseBody != null ? responseBody.string() : "";
-                        Log.d("HeartRateActivity", "OkHttp response successful: " + responseString);
-                        runOnUiThread(()-> Toast.makeText(HeartRateActivity.this, "Data sent successfully!", Toast.LENGTH_SHORT).show());
-                    } else {
-                        // 서버 에러 (4xx, 5xx 등)
-                        String errorBody = response.body() != null ? response.body().string() : "Unknown error";
-                        Log.e("HeartRateActivity", "OkHttp response failed: " + response.code() + ", " + response.message() + ", Error Body: " + errorBody);
-                        runOnUiThread(() -> Toast.makeText(HeartRateActivity.this, "Server error: " + response.code(), Toast.LENGTH_SHORT).show());
-                    }
-                } catch (IOException e) {
-                    Log.e("HeartRateActivity", "Error reading response body", e);
-                    runOnUiThread(() -> Toast.makeText(HeartRateActivity.this, "Error processing response", Toast.LENGTH_SHORT).show());
-                } finally {
-                    if (response.body() != null) {
-                        response.close();
-                    }
-                }
-            }
-        });
-    }
+//     버퍼에 있는 데이터를 서버로 전송하고 버퍼를 비움
+//    private synchronized void sendBufferedData() {
+//        if (dataBuffer.isEmpty()) {
+//            return; // 버퍼가 비어있으면 아무것도 하지 않음
+//        }
+//
+//        // 세션 ID 생성 (하드코딩)
+//        String sessionId = "01JMY6H732HBAV1XZ4KP9YAQBS";
+//        String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDFKTVdCUUM2M0c0SlFQUDhTWDYzM1dGV1MiLCJyb2xlIjoiVVNFUiIsImV4cCI6MTc0MDUxMzAxM30.VpMftsSm4qGYs20xdQXPoyWyqhVOqxP76fIG14VjtOs";
+//
+//        final List<PpgDataItem> dataToSend = new ArrayList<>(dataBuffer); // final 변수에 복사
+//        dataBuffer.clear();
+//        PpgDataWrapper dataWrapper = new PpgDataWrapper(sessionId, dataToSend);
+//        String jsonData = new Gson().toJson(dataWrapper);
+//        RequestBody requestBody = RequestBody.create(jsonData, MEDIA_TYPE_JSON);
+//
+//        // Request 객체 생성
+//        Request request = new Request.Builder()
+//                .url("https://youngwon.site/study/data") // 실제 서버 URL
+//                .addHeader("Authorization", "Bearer " + token)
+//                .post(requestBody)
+//                .build();
+//
+//        okHttpClient.newCall(request).enqueue(new Callback() {
+//            @Override
+//            public void onFailure(@NonNull Call call, @NonNull IOException e) {
+//                // 네트워크 오류 처리 (UI 스레드에서 처리)
+//                runOnUiThread(() -> {
+//                    Toast.makeText(HeartRateActivity.this, "Network error: " + e.getMessage(), Toast.LENGTH_LONG).show();
+//                    Log.e("HeartRateActivity", "OkHttp request failed: " + e.getMessage(), e);
+//                });
+//            }
+//            @Override
+//            public void onResponse(@NonNull Call call, @NonNull Response response) {
+//                try {
+//                    if (response.isSuccessful()) {
+//                        // dataBuffer.clear(); // 여기서 제거! 위에서 이미 clear함.
+//
+//                        // 성공 (200 OK 등)
+//                        ResponseBody responseBody = response.body();
+//                        String responseString = responseBody != null ? responseBody.string() : "";
+//                        Log.d("HeartRateActivity", "OkHttp response successful: " + responseString);
+//                        runOnUiThread(()-> Toast.makeText(HeartRateActivity.this, "Data sent successfully!", Toast.LENGTH_SHORT).show());
+//                    } else {
+//                        // 서버 에러 (4xx, 5xx 등)
+//                        String errorBody = response.body() != null ? response.body().string() : "Unknown error";
+//                        Log.e("HeartRateActivity", "OkHttp response failed: " + response.code() + ", " + response.message() + ", Error Body: " + errorBody);
+//                        runOnUiThread(() -> Toast.makeText(HeartRateActivity.this, "Server error: " + response.code(), Toast.LENGTH_SHORT).show());
+//                    }
+//                } catch (IOException e) {
+//                    Log.e("HeartRateActivity", "Error reading response body", e);
+//                    runOnUiThread(() -> Toast.makeText(HeartRateActivity.this, "Error processing response", Toast.LENGTH_SHORT).show());
+//                } finally {
+//                    if (response.body() != null) {
+//                        response.close();
+//                    }
+//                }
+//            }
+//        });
+//    }
 
     // 심박수 측정을 중지한다.
     void endMeasurement() {
@@ -344,8 +345,8 @@ public class HeartRateActivity extends Activity implements TrackerObserver, Sens
                 activityHeartRateBinding.butStart.setText(R.string.button_start);
             });
         }
-        stopBuffering(); // 측정이 종료될 때 버퍼링 중지
-        sendBufferedData();
+//        stopBuffering(); // 측정이 종료될 때 버퍼링 중지
+//        sendBufferedData();
     }
 
     // 오류 발생시 호출됨

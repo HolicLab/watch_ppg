@@ -104,6 +104,5 @@ public class HeartRateListener {
         final int status = data.getValue(ValueKey.PpgSet.GREEN_STATUS);
         float ppgGreenValue = data.getValue(ValueKey.PpgSet.PPG_GREEN);
         trackerDataSubject.notifyHeartRateTrackerObservers(status, ppgGreenValue);
-        Log.d("HeartRateTracker", "ppg값: " + ppgGreenValue + ", Status: " + status);
     }
 }
